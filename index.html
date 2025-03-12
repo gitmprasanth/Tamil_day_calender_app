@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamil day Calendar App</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+  </head>
+  <body class="bg-slate-900 ">
+    <form class="p-10 m-20 rounded bg-slate-600" id="dateForm">
+      <label for="data" class="text-white block text-xl font-semibold">Select date</label>
+       <input type="date" name="" id="date" placeholder="Enter your date" class="px-3 py-1 rounded bg-slate-800 text-white outline-none">
+       <button class="px-4 py-2 rounded bg-blue-500 hover:bg-blue-600 text-white">Get Calendar</button>
+    </form>
+    <div class="m-20 bg-slate-600 p-5 rounded">
+      <img src="https://i.gifer.com/ZKZg.gif" alt="Loading" class="w-full " id="dayImg">
+    </div>
+    <div class="text-gray-300 text-center mb-10">
+      All images are from <a href="https://srirangaminfo.com/Tamil-daily-calendar.php">https://srirangaminfo.com/Tamil-daily-calendar.php</a>They deserve every thing
+    </div>
+
+       <script src="./assets/Js/main.js"></script>  
+  </body>
+</html>
