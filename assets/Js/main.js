@@ -1,10 +1,10 @@
- const dateFormEl=document.querySelector('#dateForm')
+ const dateEl=document.querySelector('#date')
 const dayImgEl=document.querySelector('#dayImg')
 //  https://srirangaminfo.com/cal/2025/big/0103.jpg 
 
-dateFormEl.addEventListener('submit',(e)=>{
+dateEl.addEventListener('change',(e)=>{
     e.preventDefault();
-    const inputDate=e.target[0].value
+    const inputDate=e.target.value
    processDate(inputDate);
 })
 

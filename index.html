@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tamil day Calendar App</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-
+    <link rel="stylesheet" href="./assets/css/output.css">
   </head>
   <body class="bg-slate-900 ">
-    <form class="p-10 m-20 rounded bg-slate-600" id="dateForm">
+    <h4 class="text-center font-semibold  m-5 sm:m-20 text-xl sm:text-4xl text-orange-400" >Tamil Day Calendar 🗓️</h4>
+    <form class=" p-5 sm:p-10  m-5 sm:m-20 rounded bg-slate-600" id="dateForm">
       <label for="data" class="text-white block text-xl font-semibold">Select date</label>
        <input 
-       type="date"
-        name="" id="date" 
+        type="date"
+        name=""
+        id="date" 
         placeholder="Enter your date" 
-        class="px-3 py-1 rounded bg-slate-800 text-white outline-none" 
-        min="2024-01-01" 
+        class="px-3 py-1 rounded bg-slate-800 text-white outline-none w-full mt-3" 
+        min="2021-01-01" 
         max="2025-12-31"
         required
         >
-       <button class="px-4 py-2 rounded bg-blue-500 hover:bg-blue-600 text-white">Get Calendar</button>
     </form>
-    <div class="m-20 bg-slate-600 p-5 rounded">
-      <img src="https://i.gifer.com/ZKZg.gif" alt="Loading" class="w-full " id="dayImg">
+    <div class=" m-5 sm:m-20 bg-slate-600  p-3 sm:p-5 rounded">
+      <img src="https://media3.giphy.com/media/uIJBFZoOaifHf52MER/giphy.gif?cid=6c09b952gndx5vxhs3mt9lm8ie5843dp0rp2svyac9ocfev1&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Loading" class="w-full rounded " id="dayImg">
     </div>
-    <div class="text-gray-300 text-center mb-10">
-      All images are from <a href="https://srirangaminfo.com/Tamil-daily-calendar.php">https://srirangaminfo.com/Tamil-daily-calendar.php</a>They deserve every thing
+    <div class="text-gray-300 text-center mb-10 hover:text-orange-400 text-sm">
+      All images are from <a href="https://srirangaminfo.com/Tamil-daily-calendar.php" >https://srirangaminfo.com/Tamil-daily-calendar.php</a>they deserve every thing
     </div>
 
        <script src="./assets/Js/main.js"></script>  
